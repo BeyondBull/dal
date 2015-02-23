@@ -81,7 +81,7 @@ h1 {
 h2 { 
 	color: #fff;
 	font-weight: 800; 
-	font-size: 4em;
+	font-size: 3em;
 	letter-spacing: 1px;
 	line-height: 1em;
 }
@@ -235,8 +235,8 @@ footer a {
 }
 
 
-/* 550 and up */	
-@media screen and (min-width:641px) {
+/*large phone*/	
+@media screen and (min-width:481px) {
 	.intro { 
 		width:66.6%; 
 	}
@@ -268,39 +268,29 @@ footer a {
 		z-index: 900;
 	}
 }
+/*tablet portrate*/	
+@media screen and (min-width:641px) {
+	h2 {
+		font-size: 4em;
+	}
+}
 
-
-/* 900 and up */	
-@media screen and (min-width:900px) {
+/*table landscape/small laptop*/	
+@media screen and (min-width:768px) {
+	h2 {
+		font-size: 4.7em;
+	}
 	body { 
 		font-size:110%; 
 	}
 }
+/*desktop*/	
+@media screen and (min-width:1050px) {
+	h2 {
+		font-size: 5.7em;
+	}
 
-/* 1500 and up */	
-@media screen and (min-width:1500px) {
 	body { 
 		font-size:125%; 
-	}
-}
-
-/* 1800 and up */	
-@media screen and (min-width:1800px) {
-	body { 
-		font-size:150%; 
-	}
-}
-
-/* 2100 and up */	
-@media screen and (min-width:2100px) {
-	body { 
-		font-size:175%; 
-	}
-}
-
-/* 2500 and up */	
-@media screen and (min-width:2500px) {
-	body { 
-		font-size:200%; 
 	}
 }
