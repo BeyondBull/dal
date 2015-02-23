@@ -14,7 +14,8 @@ Last updated on 18.11.2013
 ------------------------------------------------------------------------------------ */
 
 * {
-	margin:0; padding:0; /* So sue me */
+	margin: 0; 
+	padding:0; 
 }
 div,
 article,
@@ -23,7 +24,7 @@ header,
 footer,
 nav,
 figure,
-li				{
+li {
 	position: relative; /* For absolutely positioning elements within containers  */
 }
 .group:after {
@@ -37,37 +38,18 @@ li				{
 *	{ 
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
-	box-sizing: border-box; /* Apply a natural box layout model to all elements â€” see http://		paulirish.com/2012/box-sizing-border-box-ftw 	*/
+	box-sizing: border-box;
 } 
 ::-moz-selection {
-	background: #333; 
+	background: #777; 
 	color: #fff; 
 }
 ::selection { 
-	background: #333; 
+	background: #777; 
 	color: #fff;
 }
-body, 
-input, 
-textarea {
-	color: #333;
-} 
-/* Fonts */
 body {
 	font-family: helvetica, sans-serif;
-}
-h2,
-h3 { 
-	font-family: helvetica, sans-serif;
-}
-/* Headings */
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 {
-	font-weight: normal; 
 }
 h1 { 
 	background: rgba(234,46,73,0.9);
@@ -81,7 +63,7 @@ h1 {
 }
 h2 { 
 	color: #fff;
-	font-weight: 800; 
+	font-weight: 600; 
 	font-size: 3em;
 	letter-spacing: 1px;
 	line-height: 1em;
@@ -177,7 +159,7 @@ body {
 	color: #fff; 
 	padding: 15% 0; 
 }
-.intro .projects { 
+.projects { 
 	background: rgba(255,255,255,0.9); 
 	color: #333; 
 	margin-left: -30%; 
