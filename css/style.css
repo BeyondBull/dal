@@ -164,7 +164,7 @@ html {
 	padding: 3%; 
 }
 body { 
-	background: #aaa; 
+	background: rgba(51,55,69,0.9); 
 }
 .page-wrapper { 
 	z-index: 2; 
@@ -270,11 +270,13 @@ footer a {
 }
 /*tablet portrate*/	
 @media screen and (min-width:641px) {
+	body {
+		background-color: #aaa;
+	}
 	h2 {
 		font-size: 4em;
 	}
 }
-
 /*table landscape/small laptop*/	
 @media screen and (min-width:768px) {
 	h2 {
@@ -289,7 +291,6 @@ footer a {
 	h2 {
 		font-size: 5.7em;
 	}
-
 	body { 
 		font-size:125%; 
 	}
